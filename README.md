@@ -1,0 +1,4 @@
+Dynamically-add-and-remove-user-controls-C-
+===========================================
+
+I am Asp.Net using C# Web Developer. I often find myself in a situation where I have a user input form that I want to reuse, but I don't know how many times I'll be reusing it. For example, let's say you want to let users on your site upload images, but you don't know how many images they'll want to upload. Giving the user an "Add" button can let them dynamically add as many upload boxes to the page as they want.  That's fine if you have a single control that you want to add dynamically, but what if you have several controls in a complex layout? In that case, the easiest way to handle this is by wrapping the controls you want to add into a single user control, and then dynamically adding the user control to your page. I'll show you how to do that, how to remove user controls, and also how to access the values of the controls within the user control.
